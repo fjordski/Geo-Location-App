@@ -33,7 +33,7 @@ ul {
 li {
   display: inline-block;
   width: 100%;
-  padding: 22px 0;
+  padding:0;
   margin: 0;
   border-top: 1px solid #D5DDE4;
 }
@@ -42,5 +42,19 @@ li span {
   color: #2C3238;
   float: left;
   padding:  0 40px;
+  width:214px;
+  box-sizing: border-box;
+  line-height:64px;
+  transition:0.2s ease;
 }
-
+li span img {
+	vertical-align: middle;
+	transition:0.2s ease;
+}
+p {
+	padding:22px 0;
+	margin:0 0;
+	float:left;
+	width:214px;
+	box-sizing: border-box;
+}
